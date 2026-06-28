@@ -44,6 +44,8 @@ Clone the Repository
 https://github.com/reddy-bharathi/User-Management-Dashboard
 
 ```bash
+## install
+```bash
 npm install
 ```
 
@@ -98,48 +100,26 @@ user-management-dashboard
 │
 └── README.md
 
-## Implemented Functionalities
-
-## User Management
-- Display all users
-- Add new user
-- Edit user details
-- Delete user
-
-## Search
-Search is performed in real time using:
-- First Name
-- Last Name
-- Email
-- Department
-
-## Filter
-Users can be filtered using:
-- First Name
-- Last Name
-- Email
-- Department
-
-## Sorting
- Sorting is available for:
-- First Name
-- Last Name
-- Email
-- Department
 
 
-## Pagination
-Available page sizes:
 
-- 10
-- 25
-- 50
-- 100
-## Form Validation
-The application validates:
 
-- First Name
-- Last Name
-- Email format
-- Department
-- Unique Email
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+hi
