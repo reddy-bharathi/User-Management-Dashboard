@@ -4,7 +4,7 @@
 
 The User Management Dashboard is a responsive React-based web application developed to manage user information efficiently. The application allows users to perform complete CRUD (Create, Read, Update, Delete) operations while interacting with the JSONPlaceholder REST API. Since JSONPlaceholder is a mock API, Local Storage is used to persist user data across page refreshes.
 
-The application provides a modern and responsive user interface with features like search, filtering, sorting, pagination, client-side validation, and unique email verification.
+The application provides a modern and responsive user interface with features like search, filtering, sorting, pagination, client-side validation.
 
 ---
 
@@ -68,12 +68,12 @@ user-management-dashboard
 ├── components
 │   ├── Header.jsx
 │   ├── SearchBar.jsx
-│   ├── FilterPopup.jsx
+│   ├── FilterModal.jsx
 │   ├── UserTable.jsx
 │   ├── UserRow.jsx
 │   ├── UserForm.jsx
 │   ├── Pagination.jsx
-│   └── ConfirmDelete.jsx
+│   
 │
 ├── styles
 │   └── app.css
@@ -94,7 +94,7 @@ user-management-dashboard
 Clone the repository
 
 ```bash
-git clone https://github.com/your-username/user-management-dashboard.git
+git clone https://github.com/reddy-bharathi/User-Management-Dashboard
 ```
 
 Move into the project directory
@@ -167,7 +167,7 @@ Sorting is available for:
 * Email
 * Department
 
-Both Ascending and Descending order are supported.
+
 
 ### Pagination
 
@@ -368,18 +368,18 @@ The project can be deployed on:
 
 ## Author
 
-**Boosi Naresh**
+**S.Reddybharathi**
 
-B.Tech - Computer Science Engineering (AI & ML)
+B.Tech - Computer Science Engineering
 
-Malla Reddy College of Engineering
+Rajiv Gandhi University Of Knowledge Technologies , RK Valley
 
-Email: [bushinaresh68@gmail.com](mailto:bushinaresh68@gmail.com)
+Email: siddereddybharathi@gmail.com
 
-Location: Khammam, Telangana
+Mobile : 981922705
 
 ---
 
 ## Thank You
 
-Thank you for reviewing this project. This User Management Dashboard demonstrates React fundamentals, REST API integration, CRUD operations, responsive UI development, client-side validation, Local Storage management, and modern frontend development practices.
+Thank you for reviewing this project. This User Management Dashboard demonstrates React fundamentals, REST API integration, CRUD operations, responsive UI development, client-side validation and modern frontend development practices.
