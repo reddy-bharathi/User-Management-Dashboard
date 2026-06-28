@@ -63,11 +63,33 @@ https://jsonplaceholder.typicode.com/users
 ## Folder Structure
 
 ```
-src/
- api/
- components/
- hooks/
- styles/
- tests/
- utils/
-```
+user-management-dashboard
+│
+├── public
+│
+├── src
+│
+├── api
+│   └── userService.js
+│
+├── components
+│   ├── Header.jsx
+│   ├── SearchBar.jsx
+│   ├── FilterModal.jsx
+│   ├── UserTable.jsx
+│   ├── UserRow.jsx
+│   ├── UserForm.jsx
+│   ├── Pagination.jsx
+│   
+│
+├── styles
+│   └── app.css
+    
+│
+├── utils
+│   └── validators.js
+│
+├── App.jsx
+├── main.jsx
+│
+└── README.md
