@@ -1,52 +1,73 @@
-User Management Dashboard
-Overview
-The User Management Dashboard is a responsive React-based web application developed to manage user information efficiently. The application allows users to perform complete CRUD (Create, Read, Update, Delete) operations while interacting with the JSONPlaceholder REST API. Since JSONPlaceholder is a mock API, Local Storage is used to persist user data across page refreshes.
+# User Management Dashboard
 
-The application provides a modern and responsive user interface with features like search, filtering, sorting, pagination, client-side validation, and unique email verification.
+## Overview
 
-Features
-View all users in a responsive table
+A React-based User Management Dashboard that performs CRUD operations using the JSONPlaceholder REST API.
 
-Add a new user
+## Features
 
-Edit existing user details
+- View users
+- Add user
+- Edit user
+- Delete user
+- Search users
+- Sort by all columns
+- Filter by:
+  - First Name
+  - Last Name
+  - Email
+  - Department
+- Pagination (10, 25, 50, 100)
+- Responsive UI
+- Client-side validation
+- Error handling
+- Loading indicator
+- Toast notifications
 
-Delete users with confirmation popup
+## Technologies
 
-Search users by First Name, Last Name, Email, or Department
+- React
+- Vite
+- Axios
+- React Toastify
+- React Icons
 
-Filter users using multiple fields
+## Installation
 
-Sort users by First Name, Last Name, Email, and Department
+```bash
+npm install
+```
 
-Pagination with page size options:
+Run the project
 
-10
-25
-50
-100
-Client-side form validation
+```bash
+npm run dev
+```
 
-Unique email validation
+Build
 
-Responsive design for Desktop, Tablet, and Mobile
+```bash
+npm run build
+```
 
-Modern dashboard UI with gradients and animations
+Run tests
 
-Local Storage integration for persistent data
+```bash
+npm test
+```
 
-JSONPlaceholder API integration
+## API
 
-Error handling and loading states
+https://jsonplaceholder.typicode.com/users
 
-Technologies Used
-Frontend
-React.js
-JavaScript (ES6+)
-HTML5
-CSS3
-Libraries
-Axios
-React Hooks
-API
-JSONPlaceholder REST API
+## Folder Structure
+
+```
+src/
+ api/
+ components/
+ hooks/
+ styles/
+ tests/
+ utils/
+```
